@@ -1,2 +1,2 @@
-# Static HTML Boilerplate
-Basic HTML, CSS, and JavaScript setup for a simple website.
+# UX 815 Final Project
+Basic Portfolio created for final project in UX 815
