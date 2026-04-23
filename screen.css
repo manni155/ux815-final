@@ -2,3 +2,44 @@
 a.active {
     font-weight: bold;
 }
+
+:root {
+    --primaryGreen: #3F6634;
+    --secondaryGreen: #A8E597;
+    --tertiaryGreen: #3F9926;
+    --mainLight: #FFFCF9;
+    --mainDark: #353531;
+    --mainGrey: #A2AEBB;
+    --greenSignifier: #06D6A0;
+    --yellowSignifier: #FFD166;
+    --redSignifier: #EF476F;
+}
+
+body {
+    background-color: var(--mainLight);
+    color: var(--mainDark);
+}
+
+header {
+    background-color: var(--primaryGreen);
+}
+
+h1 {
+    font-size: 64pt;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 32pt;
+}
+
+h4 {
+    font-size: 24pt;
+}
+
+button {
+    font-size: 24pt;
+}
