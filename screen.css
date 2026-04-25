@@ -55,6 +55,15 @@ button {
     font-weight: bold;
 }
 
+a.btn {
+    font-size: 24pt;
+    background: var(--secondaryGreen);
+    padding: 1em;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 3px var(--mainDark));
+    font-weight: bold;
+}
+
 li.btn {
     font-size: 24pt;
     background: var(--secondaryGreen);
