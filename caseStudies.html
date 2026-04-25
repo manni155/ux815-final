@@ -6,29 +6,36 @@
     <title>Thomas Manning - Case Studies</title>
     <link rel="stylesheet" href="screen.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <img src="Logo.png" alt="Logo featuring an eye icon and the initials TM">
-      <h3>Thomas Manning</h3>
+  <body class="font-[Open_Sans]">
+    <header class="flex flex-row justify-start items-center">
+      <img class="size-20 my-2 mx-4" src="Logo.png" alt="Logo featuring an eye icon and the initials TM">
+      <h3 class="mx-2 text-[#FFFCF9]">Thomas Manning</h3>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="caseStudies.html" class="active">Case Studies</a></li>
-          <li><a href="contact.html">Contact</a></li>
+        <ul class="flex flex-row text-center items-center">
+          <li class="btn"><a class="text-nowrap" href="index.html">Home</a></li>
+          <li class="btn"><a class="text-nowrap" href="about.html">About Me</a></li>
+          <li class="btn"><a class="text-nowrap active" href="caseStudies.html">Case Studies</a></li>
+          <li class="btn"><a class="text-nowrap" href="contact.html" >Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-        <h2>UX Case Studies</h2>
-        <div>
-           <h4>Start.gg Evaluation - 2025</h4>                 
+    <main class="flex flex-col justify-center items-center">
+      <h2 class="my-10 font-bold">UX Case Studies</h2>
+      <div class="flex flex-row justify-evenly gap-20">
+        <div class="card rounded-full my-10">
+            <img src="start.ggcard.png" alt="">
+           <h4 class="cardText">Start.gg Evaluation - 2025</h4>                 
         </div>
-        <div>
-           <h4>Epic MyChart Evaluation - 2026</h4>                 
+        <div class="card rounded-full my-10">
+          <img src="epic card.png" alt="">
+           <h4 class="cardText text-[20]">Epic MyChart Evaluation - 2026</h4>                 
         </div>
-        <h2>More Coming Soon!</h2>
+      </div>
+        <h2 class="my-10 font-bold">More Coming Soon!</h2>
     </main>
     <script src="index.js"></script>
   </body>

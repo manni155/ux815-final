@@ -6,28 +6,33 @@
     <title>Thomas Manning - Home</title>
     <link rel="stylesheet" href="screen.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <img src="Logo.png" alt="Logo featuring an eye icon and the initials TM">
-      <h3>Thomas Manning</h3>
+  <body class="font-[Open_Sans]">
+    <header class="flex flex-row justify-start items-center">
+      <img class="size-20 my-2 mx-4" src="Logo.png" alt="Logo featuring an eye icon and the initials TM">
+      <h3 class="mx-2 text-[#FFFCF9]">Thomas Manning</h3>
       <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="caseStudies.html">Case Studies</a></li>
-          <li><a href="contact.html">Contact</a></li>
+        <ul class="flex flex-row text-center items-center">
+          <li class="btn"><a class="text-nowrap active" href="index.html">Home</a></li>
+          <li class="btn"><a class="text-nowrap" href="about.html">About Me</a></li>
+          <li class="btn"><a class="text-nowrap" href="caseStudies.html">Case Studies</a></li>
+          <li class="btn"><a class="text-nowrap" href="contact.html" >Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Hi, I'm Thomas</h1>
-      <img src="meSMYM25 1.png" alt="A photo of Thomas Manning in a Michigan State University t-shirt">
-      <h4>I’m an aspiring UX Researcher and Designer. Learn more about me and my work here:</h4>
-      <button type="button">More About Me</button>
-      <button type="button">Case Studies</button>
-      <button type="button">Contact Me</button>
-    </main>
+    <main class="flex flex-col justify-center items-center">
+      <h1 class="font-bold my-5">Hi, I'm Thomas</h1>
+      <img class="rounded-full drop-shadow-md my-5" src="meSMYM25 1.png" alt="A photo of Thomas Manning in a Michigan State University t-shirt">
+      <h4 class="font-bold my-5">I’m an aspiring UX Researcher and Designer. Learn more about me and my work here:</h4>
+      <div class="flex flex-row gap-10 my-10">
+        <a class="text-wrap" href="about.html"><button type="button">More About Me</button></a>
+        <a class="text-wrap" href="caseStudies.html"><button type="button">Case Studies</button></a>
+        <a class="text-wrap" href="contact.html"><button type="button">Contact Me</button></a>
+      </div>
+      </main>
     <script src="index.js"></script>
   </body>
 </html>
