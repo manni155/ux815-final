@@ -9,4 +9,6 @@ $subject = "New Form Submission";
 
 mail($recipient, $subject, $message, $mailHeader)
 or die("Error reported.");
+
+echo"Form Submitted successfully"
 ?>
